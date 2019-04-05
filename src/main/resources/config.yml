@@ -150,43 +150,43 @@ blocked_commands:
   - 'n:b://forceload:_'
 
   # Admin commands
-  - 's:b:/save-all:_'
-  - 's:b:/kick:_'
-  - 's:b:/socialspy:_'
-  - 's:b:/replaceitem:_'
-  - 's:b:/kill:_'
-  - 's:b://generate:_'
-  - 's:b://:_'
-  - 's:b:/superpickaxe:_'
-  - 's:b:/brush:_'
-  - 's:b:/size:_'
-  - 's:b://mask:_'
-  - 's:b:/mat:_'
-  - 's:b://butcher:_'
-  - 's:b:/scoreboard:_'
-  - 's:b:/setspawn:_'
-  - 's:b://snow:_'
-  - 's:b:/tellraw:_'
-  - 's:b:/forestgen:_'
-  - 's:b:/setidletimeout:_'
-  - 's:b:/mail sendall:_'
-  - 's:b:/eco reset:_'
-  - 's:b:/mask:_'
-  - 's:b:/gmask:_'
-  - 's:b:/lrbuild:_'
-  - 's:b:/defaultgamemode:_'
-  - 's:b:/reload:_'
-  - 's:b:/title:_'
-  - 's:b:/worldborder:_'
-  - 's:b:/weather:_'
-  - 's:b:/tpall:_'
-  - 's:b:/setblock:_'
-  - 's:b:/green:_'
-  - 's:b:/gamerule:_'
-  - 's:b:/togglejail:_'
-  - 's:b:/fill:_'
-  - 's:b:/flood:_'
-  - 's:b:/team:_'
+  - 's:b:/save-all:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/kick:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/socialspy:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/replaceitem:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/kill:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b://generate:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b://:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/superpickaxe:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/brush:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/size:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b://mask:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/mat:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b://butcher:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/scoreboard:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/setspawn:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b://snow:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/tellraw:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/forestgen:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/setidletimeout:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/mail sendall:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/eco reset:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/mask:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/gmask:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/lrbuild:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/defaultgamemode:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/reload:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/title:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/worldborder:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/weather:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/tpall:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/setblock:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/green:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/gamerule:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/togglejail:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/fill:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/flood:&7You must be &b&lSuper Administrator &r&7or above to use this!'
+  - 's:b:/team:&7You must be &b&lSuper Administrator &r&7or above to use this!'
 
 # Automatically wipe dropped objects
 auto_wipe: true
@@ -211,9 +211,9 @@ disable:
 
 
 # Enable misc. features
-landmines_enabled: false
-mp44_enabled: false
-tossmob_enabled: false
+landmines_enabled: true
+mp44_enabled: true
+tossmob_enabled: true
 
 # Moblimiter
 moblimiter:
@@ -255,7 +255,7 @@ announcer:
   interval: 600
 
   # Prefix for all announcements
-  prefix: '&5[&eTotalFreedom&5] &b'
+  prefix: '&9&lTotalFreedom &r&5» &b'
 
   announcements:
   - 'Be sure to visit our forums at &6http://totalfreedom.boards.net/'
@@ -264,13 +264,13 @@ announcer:
   - 'Somebody breaking the rules? Report it! /report <user> <reason>'
   - 'Griefing is not allowed!'
   - 'Hacked clients are allowed!'
-  - 'Interested in becoming admin? Type "/ai" for more information!'
+  - 'Interested in becoming administrator? Type "/ai" for more information!'
   - 'You may view all online administrators via "/list -a"'
   - 'Save your buildings via WorldEdit! http://totalfreedom.me for more information!'
   - 'Famous players, such as Notch, are always fake! We are an offline/cracked server!'
   - 'You may contact TotalFreedom support on Twitter! https://tiny.re/tfsupport'
   - 'You may download TotalFreedomMod here: https://tiny.re/tfm+'
-  - 'Catholic_Mario is the owner of TotalFreedom.'
+  - 'Catholic_Mario is the current owner of TotalFreedom.'
   - 'MarkByron is the founder of TotalFreedom.'
   - 'Server lagging? Check the lag via "/tps"'
   - 'You are allowed to record and stream videos on TotalFreedom.'
@@ -279,13 +279,13 @@ announcer:
   - 'Invisible potions are allowed!'
   - 'Serial griefing and trolling will result in a permanent ban!'
   - 'TotalFreedom does not accept any form of donations!'
-  - 'Racism, nazism, and sexism are strictly forbidden!'
+  - 'Racism, nazism, and sexism of any form are strictly forbidden!'
   - 'Join our Discord server! Link: https://discordapp.com/invite/XXjmAmV/'
 
 # What to display in the admininfo command.
 admininfo:
-  - '&bHow to apply for admin on the TotalFreedom Server:'
-  - ' &6- Do not ask for admin in game'
+  - '&bHow to apply for administrator on the TotalFreedom Server:'
+  - ' &6- Do not ask for administrator in game'
   - ' &2- Be helpful within the server'
   - ' &6- Report those breaking the rules'
   - ' &2- And apply on our forums at the link:'
@@ -340,6 +340,11 @@ famous_players:
   - dantdm
   - gizzy14gazza
   - furiousdestroyer
+  - jacksucksatmc
+  - jacksucksatlife
+  - pewdiepie
+  - hypixel
+  - markbyron
 
 # IPs that can not be supered
 noadmin_ips:
